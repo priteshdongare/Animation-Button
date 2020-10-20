@@ -1,0 +1,106 @@
+body{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+}
+*{
+    box-sizing: border-box;
+}
+
+/* button1 */
+
+a:nth-child(1){
+    margin: 20% 5% 20% 7%;
+    padding:2% 1%;
+    float: left;
+    cursor: pointer;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-size: 25px;
+    color: crimson;
+    overflow: none;
+    border: 1px solid cyan;
+    -webkit-box-reflext:below 1px linear-gradient(transparent,#005);
+}
+
+
+a:nth-child(1):hover{
+    background-color:crimson;
+    color: cyan;
+    box-shadow: 0 0 5px crimson,
+                0 0  25px  crimson,
+                0 0  50px  crimson,
+                0 0  200px crimson;
+    border: 0;
+    border-radius: 3px;
+    transform: scale(1.1);
+}
+
+/* button2 */ 
+
+a:nth-child(2){
+    margin: 20% 5% 20% 7%;
+    padding:2% 1%;
+    float: left;
+    cursor: pointer;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-size: 25px;
+    color: springgreen;
+    overflow: none;
+    border: 1px solid chartreuse;
+}
+a:nth-child(2):hover{
+    background-color:springgreen;
+    color:chartreuse;
+    box-shadow: 0 0 5px springgreen,
+                0 0  25px  springgreen,
+                0 0  50px  springgreen,
+                0 0  150px springgreen;
+    border: 0;
+    border-radius: 3px;
+    transform: scale(1.1);
+}
+
+/* button3 */
+
+a:nth-child(3){
+    margin: 20% 5% 20% 7%;
+    padding:2% 1%;
+    float: left;
+    cursor: pointer;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-size: 25px;
+    color:rgb(26, 131, 217);
+    overflow: none;
+    border: 1px solid blue;
+}
+a:nth-child(3):hover{
+    background-color:blue;
+    color:rgb(26, 131, 217);
+    box-shadow: 0 0 5px blue,
+                0 0  25px blue,
+                0 0  50px blue,
+                0 0  150px blue;
+    border: 0;
+    border-radius: 3px;
+    transform: scale(1.1);
+}
+
+@media only screen and(max-width:700px){
+    *{  
+        display: block;
+        margin: 0 auto;
+    }
+}
